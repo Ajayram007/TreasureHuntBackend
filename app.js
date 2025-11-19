@@ -5,7 +5,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const db = require('./public/database/db');
 
-var indexRouter = require('../treasure/routes/index');
+var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/trail');
 var playerRouter = require('./routes/player');
 
