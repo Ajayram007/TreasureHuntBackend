@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://127.0.0.1:27017/treasure_hunt');
+mongoose.connect('mongodb+srv://treasure_hunt:5k8rBTea1MIGCYiH@treasurehunt.0s7bsa2.mongodb.net/?appName=TreasureHunt');
 
 const db = mongoose.connection;
 
